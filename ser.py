@@ -47,7 +47,7 @@ host = socket.gethostname()
 port = 9090
 
 # Укажите IP и порт сервера
-server.bind((host, port))
+server.bind((address, port))
 
 # Максимальное количество подключений
 server.listen(5)
